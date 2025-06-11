@@ -27,7 +27,7 @@ connect();
 
 
 const server = app.listen(3001, '0.0.0.0', () => {
-    console.log(`Node server is listning to ${server.address().port}`)
+    console.log(`Node server is listning to ${server.address().port}`) /* Node server is listning to ${server.address().port}   /   new = Node server is listening on port 3001*/
 });
 
 app.use('/api', router);
